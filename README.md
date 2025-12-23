@@ -64,3 +64,11 @@ Traditional Real Options models rely on "Assumed Volatility" (static historical 
 
 \* \*\*SciPy\*\*: Financial Calculus.
 
+
+
+\### 🔮 Future Roadmap
+
+\* \*\*Metric Upgrade:\*\* Transition from Shannon Entropy to a \*\*Jump-Diffusion Process\*\* to model structural breaks (e.g., machine breakdowns).
+
+\* \*\*Hardware:\*\* Optimization for Edge AI deployment (NVIDIA Jetson).
+
