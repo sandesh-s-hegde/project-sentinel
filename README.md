@@ -2,7 +2,8 @@
 
 **Bridging the gap between Computer Vision and Real Options Analysis.**
 
-![Project Sentinel Dashboard](assets/test_result.png)
+![Project Sentinel Dashboard](https://github.com/user-attachments/assets/3fc1d1be-d8a8-40c8-b56b-915af98ab984)
+
 
 ## 🚀 Abstract
 Traditional operational risk models often rely on static historical data. **Project Sentinel** introduces **Empirical Grounding**: analyzing live video feeds (shop floors, traffic) to extract **Flow Entropy** ($S$) and dynamically calibrate financial risk parameters.
