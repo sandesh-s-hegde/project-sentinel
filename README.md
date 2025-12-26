@@ -1,74 +1,41 @@
-\# 👁️ Project Sentinel
+# 👁️ Project Sentinel: Empirical Grounding of Operational Risk
 
+**Bridging the gap between Computer Vision and Real Options Analysis.**
 
+![Project Sentinel Dashboard](assets/demo_result.jpg)
 
-\### Empirically Grounding Operational Resilience via Computer Vision
+## 🚀 Abstract
+Traditional operational risk models often rely on static historical data. **Project Sentinel** introduces **Empirical Grounding**: analyzing live video feeds (shop floors, traffic) to extract **Flow Entropy** ($S$) and dynamically calibrate financial risk parameters.
 
+It is not just object detection; it is **Financial Modeling based on Pixel Physics.**
 
+## 💡 Key Features
+* **Vision Engine:** YOLOv8 + Optical Flow tracks physical assets (People, Vehicles).
+* **Entropy Calculation:** Converts kinematic chaos into a **Shannon Entropy** score ($\sigma_{flow}$).
+* **Financial Model:** Feeds volatility into a **Black-Scholes Model** to price "Real Options" in real-time.
+* **Interactive Dashboard:** Streamlit interface for live visualization.
 
-\*\*Project Sentinel\*\* is a technical proof-of-concept (PoC) designed to bridge the gap between \*\*Computer Vision\*\* and \*\*Supply Chain Finance\*\*. It addresses the "Input Paradox" in Real Options Analysis by extracting dynamic volatility metrics directly from unstructured shop-floor video feeds.
+## 📂 Included Assets
+This repository includes validated test data in the `assets/` folder:
+* **`test_footage.mp4`**: Industry-standard mixed traffic clip for calibration.
+* **`demo_result.jpg`**: Validation output showing Volatility Spikes >25% during vehicle entry.
 
+## ⚙️ Methodology
+1.  **Ingestion:** Raw video feed is processed frame-by-frame.
+2.  **Perception:** YOLOv8 identifies agents.
+3.  **Quantification:** Visual Entropy is normalized to a Volatility Index ($\sigma$).
+4.  **Valuation:** The Black-Scholes formula reprices the operational "Option" every second.
 
+## 📦 Installation
+*Prerequisites: Python 3.11*
 
-\### 🎯 Objective
+```bash
+# Clone
+git clone [https://github.com/sandesh-s-hegde/project-sentinel.git](https://github.com/sandesh-s-hegde/project-sentinel.git)
+cd project_sentinel
 
-Traditional Real Options models rely on "Assumed Volatility" (static historical proxies). This project deploys a \*\*"Digital Eye"\*\* (YOLOv8 + Flow Entropy) to measure \*\*"True Volatility"\*\*, allowing for the dynamic pricing of operational flexibility in real-time.
-
-
-
-\### ⚙️ Technical Architecture
-
-1\.  \*\*Vision Engine:\*\* YOLOv8 (Object Detection) + ByteTrack logic.
-
-2\.  \*\*Metric:\*\* Shannon Entropy of flow vectors ($\\sigma\_{flow}$) serves as the proxy for operational chaos.
-
-3\.  \*\*Valuation:\*\* Black-Scholes Model dynamically updated with $\\sigma\_{flow}$.
-
-
-
-\### 🚀 Quick Start
-
-1\.  \*\*Clone the repository:\*\*
-
-    ```bash
-
-    git clone \[https://github.com/YOUR\_USERNAME/project-sentinel.git](https://github.com/YOUR\_USERNAME/project-sentinel.git)
-
-    ```
-
-2\.  \*\*Install dependencies:\*\*
-
-    ```bash
-
-    pip install -r requirements.txt
-
-    ```
-
-3\.  \*\*Run the Dashboard:\*\*
-
-    ```bash
-
-    streamlit run app.py
-
-    ```
-
-
-
-\### 🛠️ Built With
-
-\* \*\*Ultralytics YOLOv8\*\*: SOTA Object Detection.
-
-\* \*\*OpenCV\*\*: Video Processing.
-
-\* \*\*Streamlit\*\*: Interactive Dashboarding.
-
-\* \*\*SciPy\*\*: Financial Calculus.
-
-
-
-\### 🔮 Future Roadmap
-
-\* \*\*Metric Upgrade:\*\* Transition from Shannon Entropy to a \*\*Jump-Diffusion Process\*\* to model structural breaks (e.g., machine breakdowns).
-
-\* \*\*Hardware:\*\* Optimization for Edge AI deployment (NVIDIA Jetson).
-
+# Install (Windows Optimized)
+py -m pip install --upgrade pip
+py -m pip install "torch==2.5.1" "torchvision==0.20.1"
+py -m pip install lapx
+py -m pip install -r requirements.txt
