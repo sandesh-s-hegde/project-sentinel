@@ -2,7 +2,9 @@
 
 **Bridging the gap between Computer Vision and Real Options Analysis.**
 
-![Project Sentinel Dashboard](https://github.com/user-attachments/assets/3fc1d1be-d8a8-40c8-b56b-915af98ab984)
+![Project Sentinel Dashboard]
+
+https://github.com/user-attachments/assets/3fc1d1be-d8a8-40c8-b56b-915af98ab984
 
 
 ## 🚀 Abstract
