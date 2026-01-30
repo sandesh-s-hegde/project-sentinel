@@ -26,15 +26,21 @@ This repository includes validated test data in the `assets/` folder:
 3.  **Quantification:** Visual Entropy is normalized to a Volatility Index ($\sigma$).
 4.  **Valuation:** The Black-Scholes formula reprices the operational "Option" every second.
 
+## 🔄 System Integration
+This Computer Vision module serves as the **"Sensor Layer"** for our broader **Financial Digital Twin**.
+The volatility metrics ($\sigma_{flow}$) extracted here are fed into our **Stochastic Inventory Engine** to automate capacity planning.
+
+👉 **View the Decision Support Engine here:** [Digital Capacity Optimizer](https://github.com/sandesh-s-hegde/digital_capacity_optimizer)
+
 ## 📦 Installation
 *Prerequisites: Python 3.11*
 
 ```bash
-# Clone
+# 1. Clone the repository
 git clone [https://github.com/sandesh-s-hegde/project-sentinel.git](https://github.com/sandesh-s-hegde/project-sentinel.git)
 cd project_sentinel
 
-# Install (Windows Optimized)
+# 2. Install Dependencies (Windows Optimized)
 py -m pip install --upgrade pip
 py -m pip install "torch==2.5.1" "torchvision==0.20.1"
 py -m pip install lapx
