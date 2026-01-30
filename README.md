@@ -9,7 +9,7 @@
 
 > **Operational volatility inferred directly from video-based flow entropy**
 
-https://github.com/sandesh-s-hegde/project-sentinel/blob/main/assets/project_sentinel_demo.mp4
+![Project Sentinel Dashboard](assets/project_sentinel_demo.mp4)
 
 ---
 
