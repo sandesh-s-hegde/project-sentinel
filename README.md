@@ -5,6 +5,14 @@
 
 ---
 
+## 🎥 Dashboard
+
+> **Operational volatility inferred directly from video-based flow entropy**
+
+https://github.com/sandesh-s-hegde/project-sentinel/blob/main/assets/project_sentinel_demo.mp4
+
+---
+
 ## 🚀 Abstract
 
 Traditional operational risk models often rely on static historical data and ex-post assumptions. **Project Sentinel** introduces **Empirical Grounding**: the use of live video streams (e.g., shop floors, traffic junctions, logistics hubs) to extract **flow-level entropy** and dynamically calibrate financial risk parameters in real-time.
