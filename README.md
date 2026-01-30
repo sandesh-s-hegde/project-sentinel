@@ -6,11 +6,10 @@
 
 ---
 
-## 🎥 Live Dashboard Preview
+## 🎥 Dashboard
 
 > **Operational volatility inferred directly from video-based flow entropy**
-
-[https://github.com/sandesh-s-hegde/project-sentinel/raw/main/assets/project_sentinel_demo.mp4](https://github.com/sandesh-s-hegde/project-sentinel/raw/main/assets/project_sentinel_demo.mp4)
+[Dashboard Preview](assets/project_sentinel_demo.mp4)
 
 ---
 
@@ -48,7 +47,7 @@ By translating observed kinematic disorder into volatility estimates, Project Se
 > Formal methodology, mathematical grounding, and validation results
 
 👉 **View the PDF:**
-[https://github.com/sandesh-s-hegde/project-sentinel/blob/main/assets/Project_Sentinel_Artefact.pdf](https://github.com/sandesh-s-hegde/project-sentinel/blob/main/assets/Project_Sentinel_Artefact.pdf)
+[Project Sentinel – Technical Artefact (PDF)](assets/Project_Sentinel_Artefact.pdf)
 
 ---
 
