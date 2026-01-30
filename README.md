@@ -1,24 +1,15 @@
 # 👁️ Project Sentinel
 
 ### Empirical Grounding of Operational Risk
-
 **Bridging Computer Vision and Real Options Analysis**
-
----
-
-## 🎥 Dashboard
-
-> **Operational volatility inferred directly from video-based flow entropy**
-[Dashboard Preview](assets/project_sentinel_demo.mp4)
 
 ---
 
 ## 🚀 Abstract
 
-Traditional operational risk models rely heavily on static historical data and ex-post assumptions. **Project Sentinel** introduces **Empirical Grounding**: the use of live video streams (e.g., shop floors, traffic junctions, logistics hubs) to extract **flow-level entropy** and dynamically calibrate financial risk parameters in real time.
+Traditional operational risk models often rely on static historical data and ex-post assumptions. **Project Sentinel** introduces **Empirical Grounding**: the use of live video streams (e.g., shop floors, traffic junctions, logistics hubs) to extract **flow-level entropy** and dynamically calibrate financial risk parameters in real-time.
 
-This is not conventional object detection.
-It is **financial modeling driven by pixel-level physics**.
+This is not conventional object detection. **It is financial modeling driven by pixel-level physics.**
 
 By translating observed kinematic disorder into volatility estimates, Project Sentinel enables **real-time pricing of operational flexibility** using established financial theory.
 
@@ -27,10 +18,10 @@ By translating observed kinematic disorder into volatility estimates, Project Se
 ## 💡 Key Features
 
 * **Vision Engine**
-  YOLOv8 combined with optical flow to track physical agents (people, vehicles, assets).
+  YOLOv8 combined with Optical Flow to track physical agents (people, vehicles, assets).
 
 * **Entropy-Based Quantification**
-  Converts spatiotemporal motion patterns into a **Shannon Entropy–based Flow Entropy score** (( \sigma_{flow} )).
+  Converts spatiotemporal motion patterns into a **Shannon Entropy–based Flow Entropy score** ($\sigma_{flow}$).
 
 * **Financial Valuation Layer**
   Empirically observed volatility feeds a **Black–Scholes–style Real Options model**, enabling continuous repricing of operational decisions.
@@ -40,70 +31,51 @@ By translating observed kinematic disorder into volatility estimates, Project Se
 
 ---
 
-## 📄 Research Artefact (PDF)
+## 🔄 System Integration (The "Sensor" Layer)
 
-📘 **Technical & Conceptual Artefact**
+This module acts as the **Sensor Layer** in our broader **Financial Digital Twin** architecture.
 
-> Formal methodology, mathematical grounding, and validation results
+The extracted volatility metric ($\sigma_{flow}$) feeds into a downstream **Stochastic Inventory & Capacity Engine**, enabling:
+* Risk-adjusted capacity planning
+* Dynamic buffer allocation
+* Automated operational decision-making
 
-👉 **View the PDF:**
-[Project Sentinel – Technical Artefact (PDF)](assets/Project_Sentinel_Artefact.pdf)
+👉 **View the "Solver" Engine here:**
+[Digital Capacity Optimizer (GitHub)](https://github.com/sandesh-s-hegde/digital_capacity_optimizer)
 
 ---
 
-## 📂 Included Assets
+## 📄 Research Artifact
 
-All validation and demonstration materials are located in the `assets/` directory:
+**Technical & Conceptual Methodology**
+> Formal methodology, mathematical grounding, and validation results.
 
-* **`project_sentinel_demo.mp4`**
-  Recorded Streamlit dashboard demonstrating real-time entropy and volatility dynamics.
-
-* **`test_footage.mp4`**
-  Industry-standard mixed-traffic video used for calibration.
-
-* **`demo_result.jpg`**
-  Validation output showing volatility spikes exceeding **25%** during vehicle ingress events.
-
-* **`Project_Sentinel_Artefact.pdf`**
-  Full technical artefact detailing theory, implementation, and empirical results.
+👉 **View the PDF:** [Project Sentinel – Technical Artifact](assets/Project_Sentinel_Artefact.pdf)
 
 ---
 
 ## ⚙️ Methodology
 
-1. **Ingestion**
-   Raw video feeds are processed frame-by-frame.
-
-2. **Perception**
-   YOLOv8 detects agents; optical flow extracts motion vectors.
-
-3. **Quantification**
-   Motion distributions are converted into **normalized flow entropy**, mapped to an implied volatility index (( \sigma )).
-
-4. **Valuation**
-   The Black–Scholes formulation reprices the operational *real option* at one-second intervals.
+1. **Ingestion:** Raw video feeds are processed frame-by-frame.
+2. **Perception:** YOLOv8 detects agents; Optical Flow extracts motion vectors.
+3. **Quantification:** Motion distributions are converted into **normalized flow entropy**, mapped to an implied volatility index ($\sigma$).
+4. **Valuation:** The Black–Scholes formulation reprices the operational *real option* at one-second intervals.
 
 ---
 
-## 🔄 System Integration
+## 📂 Included Assets
 
-This module acts as the **Sensor Layer** in a broader **Financial Digital Twin**.
+Validation and demonstration materials are located in the `assets/` directory:
 
-The extracted volatility metric (( \sigma_{flow} )) feeds into a downstream **Stochastic Inventory & Capacity Engine**, enabling:
-
-* Risk-adjusted capacity planning
-* Dynamic buffer allocation
-* Automated operational decision-making
-
-👉 **Related system:**
-**Digital Capacity Optimizer**
-[https://github.com/sandesh-s-hegde/digital_capacity_optimizer](https://github.com/sandesh-s-hegde/digital_capacity_optimizer)
+* `project_sentinel_demo.mp4`: Dashboard recording demonstrating real-time entropy dynamics.
+* `test_footage.mp4`: Industry-standard mixed-traffic video used for calibration.
+* `demo_result.jpg`: Validation output showing volatility spikes exceeding **25%** during vehicle ingress events.
 
 ---
 
 ## 📦 Installation
 
-**Prerequisites:** Python 3.11
+**Prerequisites:** Python 3.11+
 
 ```bash
 # 1. Clone the repository
