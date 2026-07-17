@@ -53,15 +53,6 @@ The extracted volatility metric ($\sigma_{flow}$) feeds into a downstream **Stoc
 
 ---
 
-## 📄 Research Artifact
-
-**Technical & Conceptual Methodology**
-> Formal methodology, mathematical grounding, and validation results.
-
-👉 **View the PDF:** [Project Sentinel – Technical Artifact](assets/Project_Sentinel_Artefact.pdf)
-
----
-
 ## ⚙️ Methodology
 
 1. **Ingestion:** Raw video feeds are processed frame-by-frame.
